@@ -17,7 +17,7 @@ export function CreationModal({ getChars, changeCreationModal }) {
   }
 
   return (
-    <div className="CreationModal" onClick={() => changeCreationModal()}>
+    <div className="CreationModal">
       <form onSubmit={createChar} className="CreationModal--form">
         <input
           className="CreationModal--input"
