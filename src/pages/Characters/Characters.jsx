@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Api } from "../../utils/api";
-import { Card } from "../card/Card";
+import { Card } from "../Card/Card";
 import { CreationModal } from "../CreationModal/CreationModal";
 import "./Characters.css";
 
